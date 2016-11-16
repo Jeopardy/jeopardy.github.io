@@ -1,4 +1,4 @@
-var socket = io.connect('ws://097b2ff2.ngrok.io');
+var socket = io.connect('wss://097b2ff2.ngrok.io');
 users = [];
 $("#submit").click(function() {
 	console.log("foo");
